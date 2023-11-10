@@ -2,6 +2,9 @@
 
 ## instalation on a new system
 
+after installing oh my zsh and powerline10k
+
+
 ```sh
 git clone --bare https://github.com/Lurk/dotfiles $HOME/.dotfiles.git
 
