@@ -2,7 +2,10 @@
 
 ## instalation on a new system
 
-after installing oh my zsh and powerline10k
+After installing 
+- [oh my zsh](https://ohmyz.sh/)
+- [powerline10k](https://github.com/romkatv/powerlevel10k) 
+- [DroidSansM Nerd Font Mono](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/DroidSansMono.zip)
 
 
 ```sh
