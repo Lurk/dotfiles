@@ -111,3 +111,17 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/serhiy.barhamon/.lmstudio/bin"
+# End of LM Studio CLI section
+
+
+. "$HOME/.local/bin/env"
+export SSH_SK_PROVIDER=/usr/local/lib/libsk-libfido2.dylib
+export SSH_SK_PROVIDER=/usr/local/lib/libsk-libfido2.dylib
+export SSH_SK_PROVIDER=/usr/local/lib/libsk-libfido2.dylib
