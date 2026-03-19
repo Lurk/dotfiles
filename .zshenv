@@ -7,4 +7,5 @@ alias n="nvim ."
 alias gmy="git switch master && git pull && yarn"
 alias mssh="ssh serhiy.barhamon@bu-prod-ssh-01.intern.bu.check24.de -p 44022 -N -o ControlPath=none -L 27017:bu-prod-mongo-02.intern.bu.check24.de:27017"
 alias ll='lsd -Alh --group-dirs=first --icon=always'
+alias backup='rsync --stats -avP --filter=":- .gitignore" --exclude=".DS_Store" --exclude="node_modules/" --exclude="target/" ~/Documents/records ~/tmp /Volumes/wd'
 

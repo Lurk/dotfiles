@@ -1,5 +1,5 @@
 setopt PROMPT_SUBST
-PROMPT='$(prmt --shell zsh --code $? "\n{git:#f9e2af:full:  }{rust:red::  }{node:green:: ⬢ }{time:green:24hs:  }\n{path:#89dceb} {ok:#a6e3a1}{fail:#f38ba8} ")'
+PROMPT='$(prmt --shell zsh --code $? "\n˹{git:#f9e2af:full:  }{rust:green::  }{node:green:: ⬢ }{time:red:24hs:  }\n˻{path:#89dceb} {ok:#a6e3a1}{fail:#f38ba8} ")'
 
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
@@ -30,3 +30,7 @@ export PATH="$PATH:/Users/serhiy.barhamon/.lmstudio/bin"
 . "$HOME/.local/bin/env"
 
 export SSH_SK_PROVIDER=/usr/local/lib/libsk-libfido2.dylib
+
+# Enable command auto-completion
+autoload -Uz compinit
+compinit
